@@ -1,0 +1,101 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(39, 39, 39);
+  background-image: url(images/Auckland.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+nav {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+main {
+  min-height: 700px;
+  text-align: center;
+  padding-top: 80px;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+main h1 {
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #aaa;
+  background-color: rgba(255, 255, 255, 0.8);
+  line-height: 1.5;
+  border: 1px solid #ccc;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
+footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+h1 {
+  color: antiquewhite;
+}
+p {
+  font-size: 1.25rem;
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #aaa;
+  background-color: rgba(255, 255, 255, 0.8);
+  line-height: 1.5;
+  border: 1px solid #ccc;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.email-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.email-button:hover {
+  background-color: #0056b3;
+}

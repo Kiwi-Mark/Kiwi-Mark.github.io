@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Melba Catering</title>
+    <link rel="stylesheet" href="signuplogin.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <img src="Images/Melba Logo.png" alt="MelbaLogo" />
+          <a href="about.html">About Us</a>
+          <a href="#">Catering Quote</a>
+          <a href="#">Catering Help</a>
+          <a href="#">Shop</a>
+          <a href="signuplogin.html">Login</a>
+          <a href="http://www.facebook.com"
+            ><img
+              src="Images/Facebook.png"
+              alt="Facebook"
+              style="width: 42px; height: 42px"
+          /></a>
+          <a href="http://www.instagram.com"
+            ><img
+              src="Images/Instagram.png"
+              alt="Instagram"
+              style="width: 42px; height: 42px"
+          /></a>
+          <a href="http://www.twitter.com"
+            ><img
+              src="Images/Twitter.png"
+              alt="Twitter"
+              style="width: 42px; height: 42px"
+          /></a>
+        </nav>
+      </header>
+      <section>
+        <h1>Sign up for a catering account</h1>
+      <p>Fill in the form below for access to your catering account.</p>
+      <div class="container">
+        <div class="form-wrapper" id="signup-form">
+          <h1>Sign Up</h1>
+          <form id="signup-form-element" action="/signup" method="post">
+            <input type="text" id="first_name" name="first_name" placeholder="First Name" required>
+            <input type="text" id="second_name" name="second_name" placeholder="Second Name" required>
+            <input type="tel" id="phone_number" name="phone_number" placeholder="Phone Number" required>
+            <input type="email" id="email" name="email" placeholder="Email Address" required>
+            <input type="text" id="company_name" name="company_name" placeholder="Company Name" required>
+            <input type="password" id="password" name="password" placeholder="Choose a Password" required>
+            <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm Password" required>
+            <button type="submit">Sign Up</button>
+          </form>
+        </div>
+      </div>
+          </section>
+         <section>
+          <h1>Already Have a Catering Account?</h1>
+          <p>Login Below</p>
+          <div class="form-wrapper" id="login-form">
+            <h1>Login</h1>
+            <form action="/login" method="post">
+              <input
+                type="text"
+                name="email"
+                placeholder="Email"
+                required
+              />
+              <input
+                type="password"
+                name="password"
+                placeholder="Password"
+                required
+              />
+              <button type="submit">Login</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <a href="mailto:melbacatering@email.com?Subject=Reservation"
+          >Contact Us
+        </a>
+        <br />
+        <br />
+        <a href="default.asp"
+          ><img
+            src="Images/Facebook.png"
+            alt="Facebook"
+            style="width: 42px; height: 42px"
+        /></a>
+        <a href="default.asp"
+          ><img
+            src="Images/Instagram.png"
+            alt="Instagram"
+            style="width: 42px; height: 42px"
+        /></a>
+        <a href="default.asp"
+          ><img
+            src="Images/Twitter.png"
+            alt="Twitter"
+            style="width: 42px; height: 42px"
+        /></a>
+        <p>Est: 1995</p>
+        <p>Made In New Zealand</p>
+      </footer>
+    </div>
+    <script src="signuplogin.js"></script>
+  </body>
+</html>
